@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/all.min.css">
+    <link rel="stylesheet" href="css/portfolio.css">
+    <title>Portfolio</title>
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg bg-body-black pt-4">
+        <div class="container d-flex justify-content-between">
+            <div class="logo">
+                <a class="navbar-brand fw-bold fs-3 text-danger" href="#">Portfolio</a>
+            </div>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 ">
+                    <li class="nav-item">
+                    <a class="nav-link text-white fw-bold me-2" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-white fw-bold me-2" href="#">About</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-white fw-bold me-2" href="#">Services</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-white fw-bold me-2" href="#">Portfolio</a>
+                    </li>
+                    <li class="nav-item">
+                    <a class="nav-link text-white fw-bold me-2" href="#">Contact</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="dark">
+                <i class="fa-solid fa-toggle-on fs-3" data-bs-theme="dark"></i>
+            </div>
+        </div>
+      </nav>
+      <!-- Header  -->
+      <div class="header" id="header">
+            <div class="d-flex justify-content-center">
+                <div class="header-text">
+                    <p class="title fs-3">Full-Stack Developer</p>
+                    <h1 class="me fw-bold">Hi, I'm <span class="text-danger">Abdelrahman</span><br/>Ashraf From Egypt</h1>
+                </div>
+                <div class="img d-flex justify-content-end">
+                    <img src="./imgs/background.png" class='w-75' alt="Abdelrahman">
+                </div>
+            </div>
+      </div>
+      <!-- About  -->
+      <div class="about" id="about">
+        <div class="container">
+            <div class="row">
+                <div class="image rounded float-end col-lg-4">
+                    <img src="./imgs/photo.jpg" class='w-100 rounded float-end' alt="Abdelrahman">
+                </div>
+                <div class="col-lg-8" style="padding-left: 40px;">
+                    <h1 class="text-danger subtitle fw-bold">About Me</h1>
+                    <p class="my-about">
+                        Hello evreyone, I'm Abdelrahman. I've a bachelor's degree in computer science from Faculty of
+                        Technology. Beni-suef University. I speak English and Turkish languages.
+                        I studied at NTI (National Telecommunication Institute).
+                    </p>
+                    <div class="tab">
+                        <div class="tab-titles d-flex">
+                            <p class="tab-links active-link" data-for-tab="1">Skills</p>
+                            <p class="tab-links" data-for-tab="2">Experience</p>
+                            <p class="tab-links" data-for-tab="3">Education</p>
+                        </div>
+                        <div class="tab-contents active-tab" id="skills" data-tab="1">
+                            <ul>
+                                <li>Front-End Development</li>
+                                <li>Back-End Development</li>
+                                <li>React.js Developmet</li>
+                                <li>Node.js Developmet</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="experience" data-tab="2">
+                            <ul>
+                                <li><span class="fs-5 text-danger text-opacity-75">Dec 2023 - Current</span><br>Technical Support Agent at Xceed</li>
+                            </ul>
+                        </div>
+                        <div class="tab-contents" id="education" data-tab="3">
+                            <ul>
+                                <li><span class="fs-5 text-danger text-opacity-75">Sep - Oct 2022</span><br>Web Developmet using Node.js and Angular at NTI</li>
+                                <li><span class="fs-5 text-danger text-opacity-75">July - Agu 2022</span><br>Web Design at NTI</li>
+                                <li><span class="fs-5 text-danger text-opacity-75">May 2022</span><br>Getting Started With Git and GitHub Coursera (IBM)</li>
+                                <li><span class="fs-5 text-danger text-opacity-75">Mar 2022</span><br>Professional Front-End Development at Udacity (FWD)</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- Services  -->
+      <div class="services" id="services">
+            <div class="container">
+                <h1 class="subtitle fw-bold">My Services</h1>
+                <div class="services_list">
+                    <div>
+                        <i class="fas fa-code fs-1"></i>
+                        <h2>Web Design</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt labore sed ipsam alias ad suscipit. Sit labore sed dolor doloremque, ut autem hic qui culpa nemo repudiandae ex harum cupiditate.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fas fa-crop-alt fs-1"></i>
+                        <h2>Web Development</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt labore sed ipsam alias ad suscipit. Sit labore sed dolor doloremque, ut autem hic qui culpa nemo repudiandae ex harum cupiditate.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                    <div>
+                        <i class="fab fa-app-store fs-1"></i>
+                        <h2>App Development</h2>
+                        <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Incidunt labore sed ipsam alias ad suscipit. Sit labore sed dolor doloremque, ut autem hic qui culpa nemo repudiandae ex harum cupiditate.</p>
+                        <a href="#">Learn More</a>
+                    </div>
+                </div>
+            </div>
+      </div>
+      <!-- Portfolio  -->
+      <div class="portfolio" id="portfolio">
+        <div class="container">
+            <h1 class="subtitle fw-bold">My Work</h1>
+            <div class="work_list">
+                <div class="work">
+                    <img src="./imgs/web design.jpg" alt="">
+                    <div class="layer">
+                        <h3>Tradex App</h3>
+                        <p>Final project in national telecommunication institute (NTI). This project include on HTML, CSS, JS and finally
+                            Bootstrap.It is two pages</p>
+                        <a href="https://github.com/abdelrahman112345/movies.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./imgs/web developmet.jpg" alt="">
+                    <div class="layer">
+                        <h3>Movies App</h3>
+                        <p>Front-end project using React.js framework.I used many tools and libraries which found in React.js like as
+                            useState, useParams, axios, joi and a lot.</p>
+                        <a href="https://github.com/abdelrahman112345/project_3_tradex.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+                <div class="work">
+                    <img src="./imgs/app development.jpg" alt="">
+                    <div class="layer">
+                        <h3>News App</h3>
+                        <p>This project was one of Back-end development projects in NTI (National Telecommunications Institute).It
+                            includes today's news and journalists</p>
+                        <a href="https://github.com/abdelrahman112345/news-api.git"><i class="fas fa-external-link-alt"></i></a>
+                    </div>
+                </div>
+            </div>
+            <a class="btn">See More</a>
+        </div>
+      </div>
+      <!-- Contact  -->
+      <div class="contact" id="contact">
+        <div class="container">
+            <div class="row">
+                <div class="col-md-5 contact_left">
+                    <h1 class="subtitle fw-bold">Contact Me</h1>
+                    <p><i class="icon fas fa-paper-plane"></i> abdo674236@gmail.com</p>
+                    <p><i class="icon fas fa-phone-square-alt"></i> 01158618298 || 01030347436</p>
+                    <div class="social_icons">
+                        <a href="https://www.facebook.com/abdelrahman.ashraf.1694059"><i class="fab fa-facebook"></i></a>
+                        <a href="https://www.instagram.com/abdurrahman.esref/"><i class="fab fa-instagram"></i></a>
+                        <a href="https://www.linkedin.com/in/abdelrahman-ashraf-8ba548199"><i class="fab fa-linkedin"></i></a>
+                        <a href="https://github.com/abdelrahman112345"><i class="fab fa-github"></i></a>
+                    </div>
+                    <a class="btn" href="" download>Download CV</a>
+                </div>
+                <div class="col-md-6 contact_right">
+                    <form>
+                        <input type="text" name="name" placeholder="Your Name" required>
+                        <input type="email" name="email" placeholder="Your Email" required>
+                        <textarea name="message" rows="6" placeholder="Your Message"></textarea>
+                        <button type="submit" class="btn">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+      </div>
+      <!-- Footer -->
+      <div class="footer" id="footer">
+            <p class="copyright">Copyright &copy; 2024  <span className="ms-1 me-1"> Abdelrahman</span> All Right Reserved</p>  
+      </div>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/all.min.js"></script>
+    <script src="js/portfolio.js"></script>
+</body>
+</html>
